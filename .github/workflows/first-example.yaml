@@ -1,5 +1,5 @@
 name : My first workflow 
-on : fork 
+on : push 
 jobs :  
     first_job :
         runs-on : ubuntu-latest 
@@ -9,6 +9,6 @@ jobs :
 
             - name : list files 
               run : ls 
-              
+
             - name : Read file 
               run: cat README.md  
