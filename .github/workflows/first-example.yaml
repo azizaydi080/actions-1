@@ -1,0 +1,14 @@
+name : My first workflow 
+on : fork 
+jobs :  
+    first_job :
+        runs-on : ubuntu-latest 
+        steps:
+            - name :  welcome message 
+              run: echo "My first github "
+
+            - name : list files 
+              run : ls 
+              
+            - name : Read file 
+              run: cat README.md  
