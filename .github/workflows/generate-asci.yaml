@@ -11,7 +11,7 @@ jobs :
             - name: List repo files
               run : ls -ltra 
             - name: Execute the shell script 
-              run: ./ascii-script.sh
+              run: ./.github/ascii-script.sh
            
               
           
