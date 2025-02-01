@@ -13,8 +13,7 @@ jobs :
               run: sudo apt install cowsay -y 
 
             - name : Generate ASCI 
-              run : cowsay -f dragon "Run for cover , iam dragon "
-            
+              run : cowsay -f dragon "Run for cover , iam dragon " >> dragon.txt      
             - name : Test file exists
               run : grep -i "dragon" dragon.txt 
 
