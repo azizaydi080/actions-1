@@ -8,10 +8,10 @@ jobs :
         steps:
             - name : checkout  Repo 
               uses: actions/checkout@v4
-
+            - name: List repo files
+              run : ls -ltra 
             - name: Execute the shell script 
               run: ./ascii-script.sh
            
               
-            - name: List repo files
-              run : ls -ltra 
+          
