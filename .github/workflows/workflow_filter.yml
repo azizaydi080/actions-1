@@ -10,6 +10,7 @@ on :
          # - featutre/*
           #- test/**
 
+          
     pull_request:
         types : 
             - opened 
